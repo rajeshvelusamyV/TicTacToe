@@ -1,0 +1,42 @@
+body h1{
+    margin-bottom: 450px;
+    margin-right: -250px;
+    color:rgba(18, 57, 212, 0.906);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+
+}
+body {
+    background-color:rgba(130, 145, 241, 0.46);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left:20px;
+
+}
+ .option{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    display:flex;
+    background-color: white;
+    text-align: center;
+    /*padding-top: 15px;*/
+    background-color:rgba(0, 0, 0, 0.891);
+    border-radius: 5px;
+    border: none;
+
+}
+.text{
+    font-size: 85px;
+    padding-left: 30px;
+    align-items: center;
+    text-align:center;
+    color:white;
+}
